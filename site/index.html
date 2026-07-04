@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SignalForge Local | Free Local SEO and AI-Readiness Audit</title>
+    <meta name="description" content="Run a free local SEO and AI-readiness audit for your small business. Get practical fixes for visibility, reviews, website conversion, and automation.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="SignalForge Local home">
+        <span class="brand-mark">SF</span>
+        <span>SignalForge Local</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#audit">Audit</a>
+        <a href="#offers">Offers</a>
+        <a href="#learn">Learn</a>
+        <a href="#admin">Admin</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Zero-cost launch MVP</p>
+          <h1>Find the local visibility leaks costing small businesses customers.</h1>
+          <p class="lede">SignalForge Local audits local SEO, review strength, website conversion, and AI-ready operations, then produces a practical action plan in minutes.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#audit">Run free audit</a>
+            <a class="button secondary" href="#offers">View implementation plans</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Sample audit summary">
+          <div class="score-ring">
+            <span id="hero-score">74</span>
+            <small>readiness score</small>
+          </div>
+          <ul class="signal-list">
+            <li><strong>Visibility:</strong> Missing location-specific service pages</li>
+            <li><strong>Trust:</strong> Review velocity below local competitor norm</li>
+            <li><strong>Conversion:</strong> Quote CTA hidden on mobile</li>
+            <li><strong>Automation:</strong> Manual review follow-up can be scripted</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="band metrics" aria-label="Business positioning">
+        <div>
+          <strong>$0</strong>
+          <span>startup software cost</span>
+        </div>
+        <div>
+          <strong>4</strong>
+          <span>audit categories</span>
+        </div>
+        <div>
+          <strong>3</strong>
+          <span>productized offers</span>
+        </div>
+        <div>
+          <strong>24h</strong>
+          <span>starter delivery target</span>
+        </div>
+      </section>
+
+      <section id="audit" class="workspace">
+        <div class="section-heading">
+          <p class="eyebrow">Free Diagnostic</p>
+          <h2>Local Growth Audit</h2>
+          <p>Enter public business details. The audit runs entirely in the browser unless an optional free backend is connected.</p>
+        </div>
+
+        <form id="audit-form" class="audit-grid">
+          <label>
+            Business name
+            <input name="businessName" required autocomplete="organization" value="Summit Family Dental">
+          </label>
+          <label>
+            City and state
+            <input name="location" required autocomplete="address-level2" value="Fort Collins, CO">
+          </label>
+          <label>
+            Business category
+            <select name="category" required>
+              <option>Home services</option>
+              <option selected>Healthcare clinic</option>
+              <option>Restaurant or cafe</option>
+              <option>Fitness or wellness</option>
+              <option>Professional services</option>
+              <option>Local retail</option>
+            </select>
+          </label>
+          <label>
+            Website URL
+            <input name="website" type="url" required value="https://example-dental.test">
+          </label>
+          <label>
+            Google review count
+            <input name="reviewCount" type="number" min="0" required value="42">
+          </label>
+          <label>
+            Average rating
+            <input name="rating" type="number" min="1" max="5" step="0.1" required value="4.6">
+          </label>
+          <label>
+            New reviews per month
+            <input name="reviewVelocity" type="number" min="0" step="1" required value="2">
+          </label>
+          <label>
+            Monthly website visits
+            <input name="monthlyVisits" type="number" min="0" step="10" required value="900">
+          </label>
+          <fieldset>
+            <legend>Current assets</legend>
+            <label class="check"><input name="hasGBP" type="checkbox" checked> Claimed Google Business Profile</label>
+            <label class="check"><input name="hasServicePages" type="checkbox"> Service pages for each key offer</label>
+            <label class="check"><input name="hasSchema" type="checkbox"> LocalBusiness schema</label>
+            <label class="check"><input name="hasBooking" type="checkbox"> Online booking or quote form</label>
+            <label class="check"><input name="hasReviewWorkflow" type="checkbox"> Review request workflow</label>
+            <label class="check"><input name="hasFAQ" type="checkbox"> Search-focused FAQ section</label>
+          </fieldset>
+          <label class="full">
+            Biggest growth constraint
+            <textarea name="constraint" rows="4">We get referrals but do not show up consistently for emergency dentist searches.</textarea>
+          </label>
+          <label>
+            Contact email for follow-up
+            <input name="email" type="email" autocomplete="email" value="owner@example-dental.test">
+          </label>
+          <div class="form-actions">
+            <button class="button primary" type="submit">Generate audit</button>
+            <button class="button secondary" type="button" id="reset-demo">Reset demo</button>
+          </div>
+        </form>
+
+        <article id="report" class="report" aria-live="polite">
+          <div class="empty-state">Run the audit to generate a scored action plan.</div>
+        </article>
+      </section>
+
+      <section id="offers" class="offers">
+        <div class="section-heading">
+          <p class="eyebrow">Productized Revenue</p>
+          <h2>Implementation plans</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer">
+            <h3>Starter Fix</h3>
+            <p class="price">$149</p>
+            <p>One-time cleanup for obvious local visibility and conversion issues.</p>
+            <ul>
+              <li>Google profile improvement checklist</li>
+              <li>Homepage CTA rewrite</li>
+              <li>Review request script</li>
+              <li>Before-and-after report</li>
+            </ul>
+          </article>
+          <article class="offer featured">
+            <h3>Growth Sprint</h3>
+            <p class="price">$399</p>
+            <p>Focused two-week implementation for one location and one primary service line.</p>
+            <ul>
+              <li>Local service page build brief</li>
+              <li>FAQ and schema package</li>
+              <li>Review velocity workflow</li>
+              <li>30-day measurement plan</li>
+            </ul>
+          </article>
+          <article class="offer">
+            <h3>Care Plan</h3>
+            <p class="price">$199/mo</p>
+            <p>Recurring monitoring, content prompts, and optimization actions.</p>
+            <ul>
+              <li>Monthly audit refresh</li>
+              <li>Four local content briefs</li>
+              <li>Review response drafts</li>
+              <li>Opportunity report</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="learn" class="learn">
+        <div class="section-heading">
+          <p class="eyebrow">Education Engine</p>
+          <h2>What the audit checks</h2>
+        </div>
+        <div class="learn-grid">
+          <article>
+            <h3>Local search relevance</h3>
+            <p>Does the business clearly connect services, location, and intent across its profile and website?</p>
+          </article>
+          <article>
+            <h3>Prominence and trust</h3>
+            <p>Are reviews, proof, and reputation assets strong enough to compete in the local pack?</p>
+          </article>
+          <article>
+            <h3>Conversion readiness</h3>
+            <p>Can a mobile visitor quickly call, book, request a quote, and understand the next step?</p>
+          </article>
+          <article>
+            <h3>Automation potential</h3>
+            <p>Which repeatable growth tasks can be turned into scripts, templates, and workflows?</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="admin" class="admin">
+        <div class="section-heading">
+          <p class="eyebrow">Operator Dashboard</p>
+          <h2>Lead queue</h2>
+          <p>Leads are stored in this browser by default. Export them as JSON for follow-up or connect the free Cloudflare endpoint.</p>
+        </div>
+        <div class="admin-actions">
+          <button class="button secondary" id="export-leads" type="button">Export leads</button>
+          <button class="button secondary" id="clear-leads" type="button">Clear local leads</button>
+        </div>
+        <div id="lead-table" class="lead-table"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>SignalForge Local helps small businesses prioritize practical growth fixes. Audit results are educational and should be verified against live business data.</p>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

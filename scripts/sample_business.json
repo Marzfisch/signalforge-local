@@ -1,0 +1,18 @@
+{
+  "businessName": "Summit Family Dental",
+  "location": "Fort Collins, CO",
+  "category": "Healthcare clinic",
+  "website": "https://example-dental.test",
+  "reviewCount": 42,
+  "rating": 4.6,
+  "reviewVelocity": 2,
+  "monthlyVisits": 900,
+  "hasGBP": true,
+  "hasServicePages": false,
+  "hasSchema": false,
+  "hasBooking": false,
+  "hasReviewWorkflow": false,
+  "hasFAQ": false,
+  "constraint": "We get referrals but do not show up consistently for emergency dentist searches.",
+  "email": "owner@example-dental.test"
+}

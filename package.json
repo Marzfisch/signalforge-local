@@ -1,0 +1,10 @@
+{
+  "name": "signalforge-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-capital local SEO and AI-readiness audit business MVP.",
+  "scripts": {
+    "test": "node tests/audit-engine.test.mjs"
+  },
+  "license": "UNLICENSED"
+}
